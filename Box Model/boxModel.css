@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 250px;
+    border :2px solid orange;
+    background-color: antiquewhite;
+    /* padding: 10px; */
+    /* padding: 10px 20px 30px 40px;
+    margin: 10px; */
+    padding :30px 20px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    width: 550px;
+    box-sizing: border-box;
+}

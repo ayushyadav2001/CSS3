@@ -1,0 +1,18 @@
+
+p{
+    /* font-family:cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    /* 1px = 1/96th inch */ 
+    /* line-height: 10px; */
+    border-bottom: 1px solid green;
+}
+h2{
+    line-height: 110px;
+    border-top: 1px solid red;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+}
