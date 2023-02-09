@@ -1,0 +1,30 @@
+.item{
+    border: 2px solid #fc3503;
+    height: 150px;
+    width: 150px;
+    /* display: inline-block; */
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+.container{
+    position: relative;
+}
+#item1{
+    background-color: skyblue;
+    /* z-index: 1; */
+}
+#item2{
+    background-color: yellow;
+    /* visibility: hidden; */
+    /* z-index: 2; */
+    /* display: none; */
+}
+#item3{
+    background-color: pink;
+    /* z-index: 5; */
+}
+#item4{
+    background-color: violet;
+}
