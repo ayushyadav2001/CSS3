@@ -1,0 +1,14 @@
+/* inline styleing
+internal css
+external css */
+*{
+    background-color: black;
+}
+h2{
+    color: orange;
+
+}
+p{
+    color: orange;
+    background-color: black;
+}
