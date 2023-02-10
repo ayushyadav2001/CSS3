@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    /* width: 1000px; */
+    margin: auto;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+/* h2{
+    text-align: center;
+    margin:2px;
+} */
+.card{
+    padding: 25px 12px;
+    /* border: 2px solid salmon; */
+    margin: 20px 40px;
+
+    background-color: seashell;
+    /* box-shadow: 10px 12px 12px 12px sandybrown; */
+    box-shadow: 6px 6px sandybrown;
+}
+
+.card-top
+{
+box-shadow: -6px -6px sandybrown;
+}
+.card h2{
+    text-shadow: 5px 5px rgb(152, 169, 219);
+}

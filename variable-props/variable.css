@@ -1,0 +1,21 @@
+:root{
+    /* lobal variable */
+--item-color:orange;
+}
+.container{
+    display: flex;
+    background-color: var(--item-color);
+}
+.item{
+    /* block Varialble */
+    
+    --item-text-color:white;
+    width: 220px;
+    height: 220px;
+    background-color: turquoise;
+    margin: 20px;
+    border: 2px solid var(--item-color );
+    color: var(--item-text-color);
+    box-shadow: 5px 5px var(--item-color);
+
+}

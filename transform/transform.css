@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: indigo;
+    color: ivory;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(78, 60, 60);
+    transition:all 2s ease-in;
+
+}
+.box:hover{
+       /* transform: rotate(60deg);
+       transform: rotate(120deg);
+       transform: rotate(180deg);
+       transform: rotate(2400deg);
+       transform: rotate(300deg);
+       transform: rotate(360deg); */
+       /* transform: rotate(360deg); */
+       /* transform: skew(45deg); */
+       /* transform: scale(2); */
+       transform: translateY(100px);
+       transform: translateX(100px);
+}
