@@ -1,0 +1,32 @@
+.item{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    font-size: 65px;
+
+}@media(max-width:300px){
+    #item-1{
+        display: block;
+    }
+    #item-2{
+        display: block;
+        background-color: brown;
+    }
+    #item-3{
+        display: block;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:550px){
+     #item-2{
+        display: block;
+        background-color: goldenrod;
+    }
+}
+@media(min-width:800px){
+      #item-3{
+        display: block;
+        background-color: orangered;
+    }
+}

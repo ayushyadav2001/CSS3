@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+.container{
+    font-size: 10px;
+    /* width: 300px; */
+    width: 100vw;
+    /* height: 680px; */
+    height: 100vh;
+    border: 3px solid rgb(180, 128, 228);
+
+}
+#one{
+    font-size: 2em;
+    padding: 2em;
+}
+#two{
+    /* font-size: 3rem; /* it i 3 20px(htmltag )=60px*/
+    /* padding: 2rem;2* 20( html tag)=40px */
+
+
+}

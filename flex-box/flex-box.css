@@ -1,0 +1,52 @@
+.flex-container{
+    width: 100%;
+    height: 520px;
+    border: 3px solid green;
+    /* initialize the flex box container */
+    display: flex;
+    /* flexbox propertites for container */
+    /* default its row */
+    /* flex-direction: row;  */
+    /* flex-direction: column; */
+    /* arrange from opposite direction  */
+    /* flex-direction: row-reverse; */
+    /* by default its no wrap */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: center; Aligen items vertically centre */
+    /* justify-content: space-between; gives the space between box */
+    /* justify-content: space-around; gives space betwwen and right nd left also */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* align-items: center;valign items horizontaly centre */
+    /* align-items: stretch; */
+    /* align-items: flex-start; by default it is */
+    /* align-items: flex-end; */
+}
+.flex-item{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    background-color: goldenrod;
+    margin: 10px;
+    padding: 5px;
+    
+}
+/* higher order later it will apppear */
+#flex-item1{
+    /* order: 3; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+    align-self: flex-end;
+
+}
+#flex-item2{
+/* order: 2; */
+flex-basis: 250px;
+flex: 3 3 300px;
+align-self: flex-start;
+}
+#flex-item3{
+
+    /* order: 1; */
+}
